@@ -59,10 +59,13 @@ nav {
 
 .hero {
     background-image: url('../image/hero.jpg');
+    background-blend-mode:soft-light;
+    background-color:brown;
+    
     background-size: cover;
     background-position: center;
     height: calc(100vh - 80px);
-    opacity: 0.8;
+    
     
 }
 
@@ -74,7 +77,7 @@ header .container {
     
 }
 .hero-content {
-    color:#d4a017;
+    color:#fff;
     margin: 20px; 
     justify-content: space-between                                                                                                 ;
 }
